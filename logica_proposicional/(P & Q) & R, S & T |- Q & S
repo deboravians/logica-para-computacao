@@ -1,0 +1,8 @@
+# (P ∧ Q) ∧ R, S ∧ T |- Q ∧ S
+  
+1. (P & Q) & R		pre
+2. S & T		pre
+3. P & Q		&e 1
+4. Q 			&e 3
+5. S 			&e 2
+6. Q & S		&i 4,5
